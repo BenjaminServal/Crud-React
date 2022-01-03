@@ -1,0 +1,62 @@
+.gameList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.gameCard {
+  width: 550px;
+  height: auto;
+  border-right: 1px outset red;
+  border-bottom: 1px solid red;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px red;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.gameCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+/* Add some padding inside the card container */
+
+.name{
+  text-align: center;
+  color: red;
+  margin-bottom: 30px;
+  font-size: 10px;
+}
+
+.released {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  button{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    bottom: 0;    
+  }
+}
+}

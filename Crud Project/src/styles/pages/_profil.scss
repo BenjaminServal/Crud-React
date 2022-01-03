@@ -1,0 +1,30 @@
+.Profil{
+align-content: center;
+
+  .userName{
+    display: flex;
+    justify-content: center;
+  }
+  h3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .comment{
+    width: 50%;
+    margin-top: 2%;
+    border: solid;
+    border-width: 10px;
+    border-color: red;
+    margin-left: 25%;
+    .commentText{
+      display: flex;
+      justify-content: center;
+    }
+    .gameNameComment{
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+}
